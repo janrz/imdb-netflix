@@ -3,42 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>IMDb Watchlist Netflix checker</title>
-<style>
-div#container {
-    max-width: 1200px;
-    margin: auto;
-}
-
-div#container div#titleContainer {
-    text-align: center;
-}
-
-div.movie {
-    max-width: 300px;
-    display: inline-block;
-}
-
-@media screen and (max-width: 600px) {
-    div.movie {
-        width: 100%;
-    }
-}
-
-div.movie div.movieImage {
-    width: 20%;
-    max-width: 200px;
-    float: left;
-}
-div.movie div.movieTitle {
-    width: 80%;
-    float: left;
-}
-
-div.movie div.movieImage img {
-    max-width: 100%;
-    max-height: 100%;
-}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
