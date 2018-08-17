@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>IMDb Watchlist Netflix checker</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>IMDb Watchlist Netflix checker</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
 
 <?php
 $user = $_GET['user'];
@@ -102,11 +102,11 @@ class Movie {
 }
 
 ?>
-<div id="container">
-<div id="titleContainer">
-<?php printIntro($watchlistOwner); ?>
-</div>
-<?php printMovies($movies); ?>
-</div>
-</body>
+        <div id="container">
+            <div id="titleContainer">
+                <?php printIntro($watchlistOwner); ?>
+            </div>
+            <?php printMovies($movies); ?>
+        </div>
+    </body>
 </html>
